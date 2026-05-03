@@ -13,7 +13,6 @@
     <img src="https://img.shields.io/badge/Portfolio-nikbeznosikov.github.io-24292f?style=flat-square" alt="Portfolio"/>
   </a>
   <img src="https://img.shields.io/badge/Madrid-Remote%20EU%20%7C%20B2B%20%2F%20EOR-2ea043?style=flat-square" alt="Madrid · Remote EU · B2B / EOR"/>
-  <img src="https://img.shields.io/badge/Relocation-NL%20%7C%20DE%20%7C%20AU%20%7C%20NZ-6f42c1?style=flat-square" alt="Open to relocation: Netherlands, Germany, Australia, New Zealand"/>
 </p>
 
 ---
@@ -34,7 +33,7 @@ Recent work includes:
 - Internal tools for product, marketing, and operations teams
 - Platform modernization from PHP/Laravel to Next.js + Node.js + MongoDB
 
-Open to senior full-stack, product engineering, payments, checkout, e-commerce, Shopify, and growth engineering roles. Remote EU from Spain, B2B contract, EOR, or relocation to the **Netherlands, Germany, Australia, or New Zealand**.
+Open to senior full-stack, product engineering, payments, checkout, e-commerce, Shopify, and growth engineering roles. Remote EU from Spain, B2B contract, EOR, or relocation.
 
 ---
 
@@ -113,5 +112,5 @@ Vitest · Playwright · Cypress
 ---
 
 <sub>
-Open to senior full-stack, product engineering, payments, checkout, e-commerce, Shopify, and growth engineering roles. Remote EU from Spain, B2B contract, EOR, or relocation to the Netherlands, Germany, Australia, or New Zealand.
+Open to senior full-stack, product engineering, payments, checkout, e-commerce, Shopify, and growth engineering roles. Remote EU from Spain, B2B contract, EOR, or relocation.
 </sub>
