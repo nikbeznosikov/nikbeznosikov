@@ -72,28 +72,28 @@ Earlier work: internal analytics dashboards at Sinlao Media (React, Redux, Chart
 
 ### Stack
 
-**Frontend**
+**Frontend:**
 React · Next.js · TypeScript · JavaScript
 
-**Backend**
+**Backend:**
 Node.js · Express · REST APIs · Webhooks · Zod
 
-**Databases**
+**Databases:**
 MongoDB · PostgreSQL · Prisma · Supabase
 
-**Payments / commerce**
+**Payments / commerce:**
 Stripe · Braintree · PayPal · Apple Pay · Google Pay · Sticky.io · Visa CDRN · Shopify
 
-**Analytics / tracking**
+**Analytics / tracking:**
 Facebook CAPI · Google Ads · GTM · Google Analytics API · BigQuery
 
-**Infrastructure**
+**Infrastructure:**
 AWS · DigitalOcean · Vercel · Railway · Cloudflare (Stream, Workers, DNS)
 
-**Testing**
+**Testing:**
 Playwright · Cypress
 
-**Mobile**
+**Mobile:**
 React Native
 
 ---
