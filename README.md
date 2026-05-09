@@ -1,8 +1,8 @@
 <h1 align="center">Nikita Beznosikov</h1>
 
 <p align="center">
-  <b>Senior Product Engineer</b> · E-commerce · Checkout · Internal Tools<br/>
-  React · Next.js · Node.js · TypeScript · 9+ years · Remote from Madrid
+  <b>Senior Full-Stack Engineer</b> · E-commerce · Checkout · Internal Tools<br/>
+  React · Next.js · Node.js · TypeScript · 9 years · Remote from Madrid
 </p>
 
 <p align="center">
@@ -19,20 +19,20 @@
 
 ### About
 
-Senior Product Engineer with 9+ years building web products end to end. For the last 6 years I was the sole engineer owning a US-based DTC e-commerce stack — 50+ live offers with A/B variations, a React checkout SPA, Node.js backend, and internal admin tooling — that reached ~$1M/month revenue and ~1,000 orders/day.
+Senior Full-Stack Engineer, 9 years building web products end to end. For the last 6 years I was the primary engineer on a US-based DTC e-commerce stack — 50+ live offers with A/B variations, a React checkout SPA, Node.js backend, and admin tooling — that reached ~$1M/month and ~2,000 orders/day.
 
-I work best with real ownership: deciding the approach, building the UI and the backend, integrating the services, shipping it, and supporting what I shipped. Strongest in React, Next.js, Node.js, and TypeScript.
+I like real ownership: deciding the approach, building both ends, integrating services, and supporting what I shipped. Honest about trade-offs and estimates. Comfortable in legacy code.
 
-Open to senior product engineering roles in the Netherlands, Germany, or the UK. Also open to remote EU roles from Spain. No EU work authorization — available via B2B contract, EOR, or relocation with sponsorship.
+Strongest in React, Next.js, Node.js, TypeScript. Plenty of integration work along the way — payments (Stripe, Braintree, PayPal, Apple/Google Pay), tracking (Facebook CAPI, GTM, BigQuery), infra basics (Cloudflare, DigitalOcean, AWS).
+
+Open to senior full-stack roles in the Netherlands, Germany, or the UK. Also open to remote EU roles from Spain. No EU work authorization — available via B2B contract, EOR, or relocation with sponsorship. 
 
 ---
 
 ### Products and apps
 
-These are real shipped products.
-
 - **[GMC Store Readiness Scanner](https://apps.shopify.com/gmc-store-readiness-scanner)** — Shopify app that audits stores for Google Merchant Center readiness and surfaces prioritized fixes. Stack: Remix, PostgreSQL, Prisma, Shopify API.
-- **[PassportPro](https://passportpro.app)** — Shopify app for EU Digital Product Passport / GPSR workflows with QR passports, bulk editing, and AI-assisted autofill. Stack: Remix, Node.js, Prisma, Shopify GraphQL API.
+- **[PassportPro](https://passportpro.app)** — Shopify app for EU Digital Product Passport / GPSR workflows with QR passports, bulk editing, and AI-assisted autofill. Stack: Remix, Node.js, Prisma, Shopify API.
 - **[CreditReel](https://creditreel.to)** — Pay-per-use video testimonial SaaS with shareable review links, Stripe credit payments, embeddable widgets, and Cloudflare Stream delivery. Stack: Next.js, Supabase, Stripe, Cloudflare.
 
 ---
@@ -43,7 +43,7 @@ AI-assisted demos I built to explore patterns relevant to my work. I can walk th
 
 | Project | Focus | Live | Stack |
 | --- | --- | --- | --- |
-| **[payment-system-demo](https://github.com/nikbeznosikov/payment-system-demo)** | Multi-provider payment routing, retry logic, order state transitions, SSE event logs | [demo](https://web-production-dcad7.up.railway.app/) | Node.js · TypeScript · Express · PostgreSQL · Zod · SSE |
+| **[payment-system-demo](https://github.com/nikbeznosikov/payment-system-demo)** | Multi-provider routing, retry logic, order state transitions, SSE event logs | [demo](https://web-production-dcad7.up.railway.app/) | Node.js · TypeScript · Express · PostgreSQL · Zod · SSE |
 | **[analytics-dashboard-demo](https://github.com/nikbeznosikov/analytics-dashboard-demo)** | 50k synthetic orders, KPIs, period-over-period deltas, server-side filtering, virtualized tables | [demo](https://analytics-dashboard-demo-khaki.vercel.app) | Next.js · React · TypeScript · TanStack · Recharts |
 | **[ai-feature-demo](https://github.com/nikbeznosikov/ai-feature-demo)** | Bounded LLM workflow, structured output, sentiment analysis, Cloudflare Turnstile cost protection | [demo](https://ai-feature-demo.vercel.app/) | Next.js · TypeScript · Gemini · Zod · Turnstile |
 
@@ -51,50 +51,43 @@ AI-assisted demos I built to explore patterns relevant to my work. I can walk th
 
 ### Main experience
 
-**Senior Product Engineer · Launchify Ventures**
+**Senior Full-Stack Engineer · Launchify Ventures**
 *2020 – Present · Remote / US-based*
 
-Sole engineer owning the full e-commerce stack for a US-based DTC business reaching ~$1M/month revenue and ~1,000 orders/day, with 80–90% mobile traffic.
+Primary engineer on a US-based DTC e-commerce business — ~$1M/month, ~2,000 orders/day, 80–90% mobile traffic. Mentored one junior; worked alongside a backend engineer at different points.
 
-- Built and maintained 50+ live offers — each with a blog page, interstitial, and supporting pages, many running 3–5 A/B variations in parallel. Built as standalone HTML/CSS/JS mini-apps for speed and isolation.
-- Built a single React checkout SPA shared across all offers, connected to a Node.js + MongoDB backend handling orders, billing, and admin operations.
-- Built a React admin panel that let product, marketing, and ops teams configure offers, pages, checkout flows, A/B tests, and external integrations without engineering involvement.
-- Built Manna.com — a separate Next.js DTC store with its own React/MUI admin panel and Node.js backend, from scratch.
-- Integrated Stripe, Braintree, PayPal, Apple Pay, and Google Pay through Sticky.io as the billing backend.
-- Built a retry job that reprocessed unfinished orders, recovering ~10–20% of initially failed transactions.
-- Built rule-based fraud and carding protection (IP blocking, URL parameter checks) and integrated Visa CDRN for chargeback automation.
-- Built server-side tracking pipelines for Facebook CAPI, Google Ads, GTM, and BigQuery.
-- Migrated video delivery from AWS S3 to Cloudflare Stream, reducing video infra cost ~99%.
+Stack: React, Next.js, TypeScript, Node.js, MongoDB, Cloudflare, DigitalOcean.
 
-Earlier work: internal analytics dashboards at Sinlao Media (React, Redux, Chart.js, D3.js), internal monitoring UI at IQ Option (React, Redux, WebSockets), and cross-browser web applications at Greenlabs.
+**Project 1 — DTC platform rebuild**
+Replaced a legacy monolith with a modular stack:
+
+- 50+ live offers (blog, interstitial, and supporting pages each), 3–5 A/B variations running in parallel
+- A shared React checkout SPA across all offers
+- Node.js + MongoDB backend for orders, billing, fraud, and admin
+- React admin panel so product, marketing, and ops could configure offers, checkout flows, A/B tests, and integrations themselves — offer-launch time dropped from ~2 weeks to ~2 days
+- Stripe, Braintree, PayPal, Apple Pay, and Google Pay integrated through Sticky.io
+- Rule-based fraud and carding protection (IP blocking, URL parameter checks) plus Visa CDRN for chargeback automation
+- Retry job that reprocessed unfinished orders — recovered ~10–20% of failed transactions
+- Server-side tracking pipelines for Facebook CAPI, Google Ads, GTM, and BigQuery
+- Migrated video delivery from AWS S3 to Cloudflare Stream — that infra cost dropped ~99%
+
+**Project 2 — Manna.com**
+Separate DTC store built from scratch — Next.js with its own React/MUI admin panel and Node.js backend. Same payment integrations and tracking as Project 1, separate codebase.
+
+Earlier: internal analytics dashboards at Sinlao Media (React, Redux, Chart.js, D3.js), internal monitoring UI at IQ Option (React, Redux, WebSockets), and cross-browser web apps at Greenlabs.
 
 ---
 
 ### Stack
 
-**Frontend:**
-React · Next.js · TypeScript · JavaScript
-
-**Backend:**
-Node.js · Express · REST APIs · Webhooks · Zod
-
-**Databases:**
-MongoDB · PostgreSQL · Prisma · Supabase
-
-**Payments / commerce:**
-Stripe · Braintree · PayPal · Apple Pay · Google Pay · Sticky.io · Visa CDRN · Shopify
-
-**Analytics / tracking:**
-Facebook CAPI · Google Ads · GTM · Google Analytics API · BigQuery
-
-**Infrastructure:**
-AWS · DigitalOcean · Vercel · Railway · Cloudflare (Stream, Workers, DNS)
-
-**Testing:**
-Playwright · Cypress
-
-**Mobile:**
-React Native
+**Frontend:** React · Next.js · TypeScript · JavaScript
+**Backend:** Node.js · Express · REST APIs · Webhooks · Zod
+**Databases:** MongoDB · PostgreSQL · Prisma · Supabase
+**Payments / commerce:** Stripe · Braintree · PayPal · Apple Pay · Google Pay · Sticky.io · Visa CDRN · Shopify
+**Analytics / tracking:** Facebook CAPI · Google Ads · GTM · Google Analytics API · BigQuery
+**Infrastructure:** AWS · DigitalOcean · Vercel · Railway · Cloudflare (Stream, Workers, DNS)
+**Testing:** Playwright · Cypress
+**Mobile:** React Native
 
 ---
 
