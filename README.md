@@ -21,11 +21,13 @@
 
 Senior Full-Stack Engineer, 9 years building web products end to end. For the last 6 years I was the primary engineer on a US-based DTC e-commerce stack — 50+ live offers with A/B variations, a React checkout SPA, Node.js backend, and admin tooling — that reached ~$1M/month and ~2,000 orders/day.
 
-I like real ownership: deciding the approach, building both ends, integrating services, and supporting what I shipped. Honest about trade-offs and estimates. Comfortable in legacy code.
-
 Strongest in React, Next.js, Node.js, TypeScript. Plenty of integration work along the way — payments (Stripe, Braintree, PayPal, Apple/Google Pay), tracking (Facebook CAPI, GTM, BigQuery), infra basics (Cloudflare, DigitalOcean, AWS).
 
-Open to senior full-stack roles in the Netherlands, Germany, or the UK. Also open to remote EU roles from Spain. No EU work authorization — available via B2B contract, EOR, or relocation with sponsorship. 
+I use AI tools daily as a core part of how I work — running parallel agent sessions across branches for independent workstreams, using Cursor, Claude Code, and GitHub Copilot for code generation, review, and problem-solving to ship faster.
+
+I like real ownership: deciding the approach, building both ends, integrating services, and supporting what I shipped. Honest about trade-offs and estimates. Comfortable in legacy code.
+
+Open to senior full-stack roles in the Netherlands, Germany, or the UK. Also open to remote EU roles from Spain. No EU work authorization — available via B2B contract, EOR, or relocation with sponsorship.
 
 ---
 
