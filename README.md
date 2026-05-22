@@ -19,23 +19,24 @@
 
 ### About
 
-Senior Full-Stack Engineer, 9 years building web products end to end. For the last 6 years I was the primary engineer on a US-based DTC e-commerce stack — 50+ live offers with A/B variations, a React checkout SPA, Node.js backend, and admin tooling — that reached ~$1M/month and ~2,000 orders/day.
+Senior Full-Stack Engineer, 9 years building web products end to end. Owned the engineering for a US-based e-commerce business reaching ~$1M/month and ~2,000 orders/day — React checkout SPA, Node.js backend, admin tooling, and 50+ live offers running 3–5 A/B variations in parallel. Currently shipping independent products on the App Store and Shopify App Store.
 
 Strongest in React, Next.js, Node.js, TypeScript. Plenty of integration work along the way — payments (Stripe, Braintree, PayPal, Apple/Google Pay), tracking (Facebook CAPI, GTM, BigQuery), infra basics (Cloudflare, DigitalOcean, AWS).
 
-I use AI tools daily as a core part of how I work — running parallel agent sessions across branches for independent workstreams, using Cursor, Claude Code, and GitHub Copilot for code generation, review, and problem-solving to ship faster.
+I use AI tools daily as a core part of how I work — running parallel agent sessions across branches for independent workstreams, using Cursor, Claude Code, and GitHub Copilot to ship faster.
 
-I like real ownership: deciding the approach, building both ends, integrating services, and supporting what I shipped. Honest about trade-offs and estimates. Comfortable in legacy code.
+I like real ownership: deciding the approach, building both ends, integrating services, and supporting what I ship. Honest about trade-offs and estimates. Comfortable in legacy code.
 
-Open to senior full-stack roles in the Netherlands, Germany, or the UK. Also open to remote EU roles from Spain. No EU work authorization — available via B2B contract, EOR, or relocation with sponsorship.
+Open to senior full-stack roles in Germany, the Netherlands, or the UK. Also open to remote EU roles from Spain. No EU work authorization — available via B2B contract, EOR, or relocation with sponsorship.
 
 ---
 
-### Products and apps
+### Independent products
 
+- **[PassportPro](https://passportpro.app)** — Shopify app for EU Digital Product Passport / GPSR workflows. QR-coded passports, merchant admin interface, CSV bulk editing, AI-assisted autofill, Shopify product-page integration. Stack: Remix, Node.js, Prisma, Shopify GraphQL API.
+- **[CreditReel](https://creditreel.to)** — Pay-per-use video testimonial SaaS. Businesses share a link; clients record or write reviews. Stripe credit payments, embeddable widgets, Cloudflare Stream delivery. Stack: Next.js, Supabase (PostgreSQL), Stripe, Cloudflare.
+- **[InstaDeck](https://apps.apple.com/us/app/instadeck/id6754289754)** — iOS app that generates flashcard decks from any topic using LLMs, graded easy to hard. Spaced repetition, offline-first SQLite storage, freemium model. Stack: React Native, TypeScript, SQLite.
 - **[GMC Store Readiness Scanner](https://apps.shopify.com/gmc-store-readiness-scanner)** — Shopify app that audits stores for Google Merchant Center readiness and surfaces prioritized fixes. Stack: Remix, PostgreSQL, Prisma, Shopify API.
-- **[PassportPro](https://passportpro.app)** — Shopify app for EU Digital Product Passport / GPSR workflows with QR passports, bulk editing, and AI-assisted autofill. Stack: Remix, Node.js, Prisma, Shopify API.
-- **[CreditReel](https://creditreel.to)** — Pay-per-use video testimonial SaaS with shareable review links, Stripe credit payments, embeddable widgets, and Cloudflare Stream delivery. Stack: Next.js, Supabase, Stripe, Cloudflare.
 
 ---
 
@@ -51,45 +52,62 @@ AI-assisted demos I built to explore patterns relevant to my work. I can walk th
 
 ---
 
-### Main experience
+### Experience
+
+**Independent Engineer · Self-employed**
+*2025 – Present · Remote*
+
+Designing, building, and shipping independent products end to end — both ends of the stack, all integrations, all the way to live customers on the App Store and Shopify App Store.
+
+---
 
 **Senior Full-Stack Engineer · Launchify Ventures**
-*2020 – Present · Remote / US-based*
+*2022 – 2025 · Remote*
 
-Primary engineer on a US-based DTC e-commerce business — ~$1M/month, ~2,000 orders/day, 80–90% mobile traffic. Mentored one junior; worked alongside a backend engineer at different points.
+US-based e-commerce business — ~$1M/month, ~2,000 orders/day, 80–90% mobile traffic.
 
-Stack: React, Next.js, TypeScript, Node.js, MongoDB, Cloudflare, DigitalOcean.
+- Designed and built the platform that replaced a legacy monolith — 50+ live offer funnels (blog → product → checkout → thank-you), each deployed independently with 3–5 A/B variations running in parallel, so marketing could iterate without blocking on engineering.
+- Built a shared React checkout SPA across all offers, backed by a Node.js + MongoDB API handling orders, billing, retry logic, and admin operations. JWT auth for internal users.
+- Built a React admin panel so product, marketing, and ops could configure offers, checkout flows, A/B tests, and integrations themselves — offer-launch time dropped from ~2 weeks to ~2 days.
+- Built-in analytics on both admin panels surfaced sales by offer, special-offer take rates, decline rates, and funnel breakdowns.
+- Integrated Stripe, Braintree, PayPal, Apple Pay, Google Pay. Multi-provider routing, webhook handlers, retry logic for failed orders.
+- Built server-side tracking pipelines for Facebook CAPI, Google Ads, GTM, and BigQuery — reliable event data without browser-side dependencies.
+- **Manna.com** — separate vitamin store built from scratch: Next.js app with its own React admin panel and Firebase Auth customer portal. Customers could update orders, cancel, and downgrade subscriptions through self-serve flows.
+- Rebuilt a legacy subscription video platform on Next.js and migrated video delivery from AWS S3 to Cloudflare Stream — monthly infra cost dropped ~99% (~$800 → ~$5).
 
-**Project 1 — DTC platform rebuild**
-Replaced a legacy monolith with a modular stack:
+---
 
-- 50+ live offers (blog, interstitial, and supporting pages each), 3–5 A/B variations running in parallel
-- A shared React checkout SPA across all offers
-- Node.js + MongoDB backend for orders, billing, fraud, and admin
-- React admin panel so product, marketing, and ops could configure offers, checkout flows, A/B tests, and integrations themselves — offer-launch time dropped from ~2 weeks to ~2 days
-- Stripe, Braintree, PayPal, Apple Pay, and Google Pay integrated through Sticky.io
-- Rule-based fraud and carding protection (IP blocking, URL parameter checks) plus Visa CDRN for chargeback automation
-- Retry job that reprocessed unfinished orders — recovered ~10–20% of failed transactions
-- Server-side tracking pipelines for Facebook CAPI, Google Ads, GTM, and BigQuery
-- Migrated video delivery from AWS S3 to Cloudflare Stream — that infra cost dropped ~99%
+**Full-Stack Engineer · Launchify Ventures**
+*2020 – 2022 · Remote*
 
-**Project 2 — Manna.com**
-Separate DTC store built from scratch — Next.js with its own React/MUI admin panel and Node.js backend. Same payment integrations and tracking as Project 1, separate codebase.
+Joined as frontend on the legacy monolith. When the backend engineer left during COVID, learned Node.js, took over the API, and proposed the rewrite that became the modular platform above — shipped the first admin panel and offer mini-apps.
 
-Earlier: internal analytics dashboards at Sinlao Media (React, Redux, Chart.js, D3.js), internal monitoring UI at IQ Option (React, Redux, WebSockets), and cross-browser web apps at Greenlabs.
+---
+
+**Frontend Engineer · Sinlao Media**
+*2019 – 2020 · San Diego, CA*
+
+Built an internal analytics dashboard for media buyers — Facebook ad performance and sales reporting. React, Redux, Chart.js, D3.js.
+
+---
+
+**Frontend Engineer · IQ Option**
+*2016 – 2019 · St Petersburg*
+
+Built an internal monitoring dashboard at an online-trading fintech. React, Redux, real-time data over WebSockets, charts and data tables for ops teams.
 
 ---
 
 ### Stack
 
-**Frontend:** React · Next.js · TypeScript · JavaScript
-**Backend:** Node.js · Express · REST APIs · Webhooks · Zod
-**Databases:** MongoDB · PostgreSQL · Prisma · Supabase
-**Payments / commerce:** Stripe · Braintree · PayPal · Apple Pay · Google Pay · Sticky.io · Visa CDRN · Shopify
-**Analytics / tracking:** Facebook CAPI · Google Ads · GTM · Google Analytics API · BigQuery
-**Infrastructure:** AWS · DigitalOcean · Vercel · Railway · Cloudflare (Stream, Workers, DNS)
-**Testing:** Playwright · Cypress
-**Mobile:** React Native
+**Frontend:** React · Next.js · TypeScript · JavaScript  
+**Backend:** Node.js · Express · REST APIs · Webhooks · JWT · Firebase Auth · Zod  
+**Databases:** MongoDB · Supabase (PostgreSQL, side projects)  
+**Payments:** Stripe · Braintree · PayPal · Apple Pay · Google Pay · Shopify  
+**Analytics / tracking:** Facebook CAPI · Google Ads · GTM · Google Analytics API · BigQuery  
+**Infrastructure:** AWS (EC2, S3, IAM) · DigitalOcean · Vercel · Railway · Cloudflare (Stream, Workers, DNS)  
+**AI tools:** Cursor · Claude · GitHub Copilot  
+**Testing / Mobile:** Playwright · Cypress · React Native (published iOS app)  
 
 ---
 
