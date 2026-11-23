@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Senior Full-Stack Engineer</b> · E-commerce · Checkout · Internal Tools · AI-native<br/>
-  React · Next.js · Node.js · TypeScript · 9 years · Remote from Madrid
+  React · Next.js · Node.js · TypeScript · 9 years · Remote
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
   <a href="https://nikbeznosikov.github.io">
     <img src="https://img.shields.io/badge/Portfolio-nikbeznosikov.github.io-24292f?style=flat-square" alt="Portfolio"/>
   </a>
-  <img src="https://img.shields.io/badge/Madrid-Remote%20EU%20%7C%20B2B%20%2F%20EOR-2ea043?style=flat-square" alt="Madrid · Remote EU · B2B / EOR"/>
+  <img src="https://img.shields.io/badge/Remote-B2B%20%2F%20EOR-2ea043?style=flat-square" alt="Remote · B2B / EOR"/>
 </p>
 
 ---
@@ -27,7 +27,7 @@ I use AI tools daily as a core part of how I work: running parallel agent sessio
 
 I like real ownership: deciding the approach, building both ends, integrating services, and supporting what I ship. Honest about trade-offs and estimates. Comfortable in legacy code.
 
-Open to senior full-stack roles in Germany, the Netherlands, or the UK. Also open to remote EU roles from Spain. Available via B2B contract, EOR, or relocation with sponsorship.
+Open to senior full-stack roles in Germany, the Netherlands, or the UK. Also open to remote roles. Available via B2B contract, EOR, or relocation.
 
 ---
 
